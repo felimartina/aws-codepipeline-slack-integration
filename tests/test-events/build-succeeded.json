@@ -1,0 +1,26 @@
+{
+  "version": "0",
+  "id": "6661b54e-03e5-6515-715d-5b930f3aab28",
+  "detail-type": "CodePipeline Action Execution State Change",
+  "source": "aws.codepipeline",
+  "account": "705750910119",
+  "time": "2018-01-11T06:05:04Z",
+  "region": "us-west-2",
+  "resources": [
+    "arn:aws:codepipeline:us-west-2:705750910119:aclu-codepipeline"
+  ],
+  "detail": {
+    "pipeline": "aclu-codepipeline",
+    "execution-id": "02fe9df5-b168-41e8-92de-4389e268f3d3",
+    "stage": "Build",
+    "action": "Build",
+    "state": "SUCCEEDED",
+    "type": {
+      "owner": "AWS",
+      "provider": "CodeBuild",
+      "category": "Build",
+      "version": "1"
+    },
+    "version": 4
+  }
+}

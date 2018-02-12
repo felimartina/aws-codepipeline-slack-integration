@@ -1,0 +1,18 @@
+{
+    "version": "0",
+    "id": "ac3e6e4b-c294-4250-e9b3-f463c21daae9",
+    "detail-type": "CodePipeline Pipeline Execution State Change",
+    "source": "aws.codepipeline",
+    "account": "705750910119",
+    "time": "2018-02-11T05:02:03Z",
+    "region": "us-west-2",
+    "resources": [
+        "arn:aws:codepipeline:us-west-2:705750910119:aclu-codepipeline"
+    ],
+    "detail": {
+        "pipeline": "aclu-codepipeline",
+        "execution-id": "dc023fbb-e8f6-44aa-911e-d2d47bb6b132",
+        "state": "STARTED",
+        "version": 4
+    }
+}
