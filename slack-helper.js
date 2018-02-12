@@ -36,7 +36,7 @@ module.exports.createSlackMessage = (codepipelineEventDetails, slackChannel) => 
 
       const slackMessage = {
         channel: slackChannel,
-        text: `Pipeline status updated: <${pipelineDetails.executionHistoryUrl}|${codepipelineEventDetails.pipeline}>`,
+        text: `AWS Pipeline status updated: <${pipelineDetails.executionHistoryUrl}|${codepipelineEventDetails.pipeline}>`,
         attachments: [{
           footer: `<https://github.com/felimartina/aws-codepipeline-slack-integration|CodePipeline Slack Integration>`,
           ts: Date.now() / 1000,
