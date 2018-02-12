@@ -1,7 +1,6 @@
 'use strict'
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 const SLACK_WEBHOOK_URL = process.env.SLACK_WEBHOOK_URL
-const rp = require('request-promise')
+const rp = require('request-promise-native')
 
 module.exports.postMessage = (message) => {
   const options = {
