@@ -33,12 +33,12 @@ module.exports.createSlackMessage = (codepipelineEventDetails, slackChannel) => 
             console.log(`Unknown stage: ${stage.stageName}`)
         }
       })
-      
+
       const slackMessage = {
         channel: slackChannel,
         text: `Pipeline status updated: <${pipelineDetails.executionHistoryUrl}|${codepipelineEventDetails.pipeline}>`,
         attachments: [{
-          footer: `ACLU CodePipeline`,
+          footer: `<https://github.com/felimartina/aws-codepipeline-slack-integration|CodePipeline Slack Integration>`,
           ts: Date.now() / 1000,
           color: getColorByState(pipelineDetails.execution.pipelineExecution.status),
           fields: fields
