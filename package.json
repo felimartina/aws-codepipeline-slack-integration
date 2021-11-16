@@ -13,6 +13,6 @@
     "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
-    "aws-sdk": "^2.192.0"
+    "aws-sdk": "^2.814.0"
   }
 }
